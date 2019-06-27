@@ -98,7 +98,17 @@ The main function of the observing scripts is to determine the optimal time to p
 
 ![](./output/skymap.example)
 
-The black band is areas of the sky where the plane of the Milky Way causes a lot of light extinction. The blue outline shaped like a tank is the DES footprint, a large part of the sky that DES has spent about 6 years covering. The neutino is represented by the red dot, the sun is represented by the yellow dot, and the moon is shown as a grey/purple dot.
+The black band is areas of the sky where the plane of the Milky Way causes a lot of light extinction. The blue outline shaped like a tank is the DES footprint, a large part of the sky that DES has spent about 6 years covering. The neutino is represented by the red dot, the Sun is represented by the yellow dot, and the Moon is shown as a grey/purple dot.
 
+**Spherical Rendering of the Skymap Example**
 
-(Add information on how to interpret plots)
+![](./output/ortho.example)
+
+The center of the green circle is the zenith, or point on the sky that is directly overhead, from CTIO in Chile. The green circle itself is a limiting angle where we do not want to observe events outside of it since we would have to look through a lot of the Earth's atmosphere. For reference, the amount of atmosphere you look through is known as the airmass. Airmass = 1.0 is directly overhead at the zenith, and the green circle is at airmass = 2.0. Mathematically, the airmass is the secant of the angle between the line of sight and the zenith.
+
+**Airmass Plot Example**
+
+![](./output/airmass.example)
+
+The black curve in the plot is the airmass as a function of time. This plot is useful for determining whether the airmass is increasing or decreasing with time, and how rapidly it is changing, at the point of starting observations.
+
