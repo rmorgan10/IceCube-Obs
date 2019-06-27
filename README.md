@@ -40,3 +40,29 @@ Change to `fill_color = ax.get_fc()`
 Change to `axisbgc = ax.get_fc()`
 
 - Step 5: You should be good to go! Try `python test_icecube_observability.py`
+
+## Usage
+
+These scripts are designed to determine the observability of a single IceCube alert from CTIO. The file `test_icecube_observability.py` is where the properties of an alert can be entered.
+
+To test the observability of an alert:
+
+- Step 1: Open `test_icecube_observability.py` in your favorite text editor
+- Step 2: Comment out existing `event_dict`s
+- Step 3: Create a new `event_dict` with the properties of the alert you are interested in. It should look like this:
+
+```python
+event_dict = {'766165': {'ra': 65.7866,
+                         'dec': -37.4431,
+                         'eventid': 766165,
+                         'time': '2019/5/25 00:27:07'}}
+```
+
+- Step 4: Save your changes to the file
+- Step 5: Run the scripts with the command `python test_icecube_observability.py`
+
+## Output
+
+The scripts will both print diagnostic information to the terminal and produce plots for assessing the observability of the IceCube alert.
+
+(Add information on how to interpret plots)
