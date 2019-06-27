@@ -1,5 +1,7 @@
 *~
 *.pyc
-output/*
+output/*.txt
+output/*.json
+output/*.png
 __pycache__
 __pycache__/*
