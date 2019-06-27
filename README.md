@@ -65,4 +65,40 @@ event_dict = {'766165': {'ra': 65.7866,
 
 The scripts will both print diagnostic information to the terminal and produce plots for assessing the observability of the IceCube alert.
 
+** Terminal Output Example **
+
+```
+Event
+  Event ID = 132707
+  (ra, dec) = (342.7772, 10.0547)
+Date
+  Now = 2019/6/27 17:07:12 (UTC)
+  Search time = 2019/6/27 17:07:09 (UTC)
+  Optimal time = 2019/6/28 09:10:36 (UTC)
+  Airmass at optimal time = 1.31
+Sun
+  Angular separation = 107.57 (deg)
+  Next rising = 2019/6/28 11:39:49 (UTC)
+  Next setting = 2019/6/27 21:52:54 (UTC)
+Moon
+  Illumination = 0.22
+  Angular separation = 55.76 (deg)
+  Next rising = 2019/6/28 07:16:45 (UTC)
+  Next setting = 2019/6/27 18:11:09 (UTC)
+  Next new moon = 2019/7/2 19:16:11 (UTC)
+  Next full moon = 2019/7/16 21:38:11 (UTC)
+Galactic
+  (l, b) = (80.7101, -42.7402)
+  E(B-V) = 0.02
+```
+
+The main function of the observing scripts is to determine the optimal time to perform observations based on the Sun, Moon, and rotation of the Earth. That optimal time is shown near the top of the output. At this optimal time, details on the position of the Sun, position and illumination of the Moon, and extinction casused by dust in the Milky Way (Galactic) are displayed.
+
+** All-Sky Map Example **
+
+![](./output/skymap.example)
+
+The black band is areas of the sky where the plane of the Milky Way causes a lot of light extinction. The blue outline shaped like a tank is the DES footprint, a large part of the sky that DES has spent about 6 years covering. The neutino is represented by the red dot, the sun is represented by the yellow dot, and the moon is shown as a grey dot. The percent illumination is shown on the moon (i.e. full moon = 100 %).
+
+
 (Add information on how to interpret plots)
