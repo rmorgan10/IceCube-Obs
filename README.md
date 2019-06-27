@@ -6,13 +6,13 @@ Scripts to determine DECam observability of IceCube alerts
 - Step 0: Download an installation of [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 - Step 1: Build a virtual environment with the following command:
 
-```python
+```
 conda create --name des-icecube python numpy astropy pyephem matplotlib pandas scipy healpy basemap=1.0.7
 ```
 
 - Step 2: Activate the virtual environment
 
-```python
+```
 conda activate des-icecube
 ```
 
