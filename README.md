@@ -104,7 +104,9 @@ The black band is areas of the sky where the plane of the Milky Way causes a lot
 
 ![](./output/ortho.example)
 
-The center of the green circle is the zenith, or point on the sky that is directly overhead, from CTIO in Chile. The green circle itself is a limiting angle where we do not want to observe events outside of it since we would have to look through a lot of the Earth's atmosphere. For reference, the amount of atmosphere you look through is known as the airmass. Airmass = 1.0 is directly overhead at the zenith, and the green circle is at airmass = 2.0. Mathematically, the airmass is the secant of the angle between the line of sight and the zenith.
+The neutrino and Moon are still red and grey/purple respectively. The Moon now has its percent illumination on it where 100% is a full moon and 0% is a new moon.
+
+The center of the green circle is the zenith, or point on the sky that is directly overhead, of CTIO in Chile at the optimal observing time. The green circle itself is a limiting angle where we do not want to observe events outside of it since we would have to look through a lot of the Earth's atmosphere. For reference, the amount of atmosphere you look through is known as the airmass. Airmass = 1.0 is directly overhead at the zenith, and the green circle is at airmass = 2.0. Mathematically, the airmass is the secant of the angle between the line of sight and the zenith.
 
 **Airmass Plot Example**
 
