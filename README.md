@@ -65,7 +65,7 @@ event_dict = {'766165': {'ra': 65.7866,
 
 The scripts will both print diagnostic information to the terminal and produce plots for assessing the observability of the IceCube alert.
 
-** Terminal Output Example **
+**Terminal Output Example**
 
 ```
 Event
@@ -94,11 +94,11 @@ Galactic
 
 The main function of the observing scripts is to determine the optimal time to perform observations based on the Sun, Moon, and rotation of the Earth. That optimal time is shown near the top of the output. At this optimal time, details on the position of the Sun, position and illumination of the Moon, and extinction casused by dust in the Milky Way (Galactic) are displayed.
 
-** All-Sky Map Example **
+**All-Sky Map Example**
 
 ![](./output/skymap.example)
 
-The black band is areas of the sky where the plane of the Milky Way causes a lot of light extinction. The blue outline shaped like a tank is the DES footprint, a large part of the sky that DES has spent about 6 years covering. The neutino is represented by the red dot, the sun is represented by the yellow dot, and the moon is shown as a grey dot. The percent illumination is shown on the moon (i.e. full moon = 100 %).
+The black band is areas of the sky where the plane of the Milky Way causes a lot of light extinction. The blue outline shaped like a tank is the DES footprint, a large part of the sky that DES has spent about 6 years covering. The neutino is represented by the red dot, the sun is represented by the yellow dot, and the moon is shown as a grey/purple dot.
 
 
 (Add information on how to interpret plots)
