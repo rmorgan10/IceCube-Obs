@@ -4,19 +4,26 @@ Scripts to determine DECam observability of IceCube alerts
 ## Installation
 
 - Step 0: Download an installation of [miniconda](https://docs.conda.io/en/latest/miniconda.html)
-- Step 1: Build a virtual environment with the following command:
+- Step 1: Clone this repository
+
+```
+cd <path/to/where/you/want/to/work>
+git clone https://github.com/rmorgan10/IceCube-Obs.git
+```
+
+- Step 2: Build a virtual environment with the following command:
 
 ```
 conda create --name des-icecube python numpy astropy pyephem matplotlib pandas scipy healpy basemap=1.0.7
 ```
 
-- Step 2: Activate the virtual environment
+- Step 3: Activate the virtual environment
 
 ```
 conda activate des-icecube
 ```
 
-- Step 3: Fix errors in the `basemap` source code
+- Step 4: Fix errors in the `basemap` source code
 
 The module `basemap` is great for making detailed plots, but recently has been superseded by `cartopy`. After `basemap` stopped being maintained, `matplotlib` depreciated some of the function calls that `basemap` uses. There are two locations where a minor change is required.
 
@@ -32,4 +39,4 @@ Change to `fill_color = ax.get_fc()`
 
 Change to `axisbgc = ax.get_fc()`
 
-- Step 4: You should be good to go! Try `python test_icecube_observability.py`
+- Step 5: You should be good to go! Try `python test_icecube_observability.py`
