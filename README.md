@@ -15,7 +15,7 @@ git clone https://github.com/rmorgan10/IceCube-Obs.git
 
 ```
 conda config --add channels anaconda
-conda create --name des-icecube python=2.7 numpy=1.9* astropy pyephem matplotlib pandas scipy healpy basemap=1.0.7 jupyter
+conda create --name des-icecube python=2.7 numpy astropy pyephem matplotlib pandas scipy healpy basemap=1.0.7 jupyter
 ```
 
 - Step 3: Activate the virtual environment
