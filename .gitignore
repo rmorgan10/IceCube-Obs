@@ -5,3 +5,5 @@ output/*.json
 output/*.png
 __pycache__
 __pycache__/*
+
+forecasting/.ipynb_checkpoints/
