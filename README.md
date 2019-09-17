@@ -14,7 +14,7 @@ git clone https://github.com/rmorgan10/IceCube-Obs.git
 - Step 2: Build a virtual environment with the following command:
 
 ```
-conda create --name des-icecube python=2.7 numpy astropy pyephem matplotlib pandas scipy healpy basemap=1.0.7
+conda create --name des-icecube python=2.7 numpy astropy pyephem matplotlib pandas scipy healpy basemap=1.0.7 jupyter
 ```
 
 - Step 3: Activate the virtual environment
